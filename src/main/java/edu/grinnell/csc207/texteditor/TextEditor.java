@@ -43,7 +43,7 @@ public class TextEditor {
         // Create a screen to display the text editor
         Screen screen = new DefaultTerminalFactory().createScreen();
         screen.startScreen();
-
+        drawBuffer(buffer, screen);
 
         // loop to read inputs and run buffer
         boolean isRunning = true;
