@@ -22,6 +22,7 @@ public class GapBuffer {
         // throw new UnsupportedOperationException("Unimplemented method 'delete'");
         if (bufferStart == bufferEnd) {
             GapBuffer = Arrays.copyOf(GapBuffer, GapBuffer.length * 2);
+            bufferEnd += GapBuffer.length / 2;
         }
         if (cursor <= bufferStart) {
             for (int i = bufferStart; i > cursor; i--) {
