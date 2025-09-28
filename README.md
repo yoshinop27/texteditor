@@ -4,8 +4,8 @@
 
 ## Resources Used
 
-+ _(TODO: fill me in)_
-+ ...
++ https://docs.oracle.com/javase/8/docs/api/index.html?java/nio/file/Files.html
++ https://mabe02.github.io/lanterna/apidocs/3.1/overview-summary.html
 + ...
 
 ## Part 2
