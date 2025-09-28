@@ -37,6 +37,7 @@ public class SimpleStringBuffer {
         String front = simpleStringBuffer.substring(0, cursor-1);
         String back = simpleStringBuffer.substring(cursor);
         simpleStringBuffer = front + back;
+        cursor--;
     }
 
     /**
@@ -73,8 +74,8 @@ public class SimpleStringBuffer {
      * @return char at index i
      * @param i an integer within our string buffer
      */
-    public char getChar(int i) throws StringIndexOutOfBoundsException{
-        if (i < 0 || i >= this.getSize()) throw new StringIndexOutOfBoundsException();
+    public char getChar(int i) throws IndexOutOfBoundsException{
+        if (i < 0 || i >= this.getSize()) throw new IndexOutOfBoundsException();
         return simpleStringBuffer.charAt(i);
     }
 
