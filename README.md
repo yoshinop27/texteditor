@@ -14,6 +14,31 @@ In our String back text buffer, for the insert method we consider our relavant o
 
 ## Changelog
 
+commit 43e1b145ccc042c597d1a217be78f7024c5656c8 (HEAD -> main, origin/main)
+Merge: 8fda5ee 05152f5
+Author: Preston Yoshino <prestonyoshino@Mac.grinnell.edu>
+Date:   Fri Oct 3 18:37:07 2025 -0500
+
+    Merge branch 'preston-changes'
+
+commit 05152f54bb3206b062da0d57e98b2aa5d71bf45f (origin/preston-changes, preston-changes)
+Author: Preston Yoshino <prestonyoshino@Mac.grinnell.edu>
+Date:   Fri Oct 3 17:26:51 2025 -0500
+
+    changed cursor functionality
+
+commit 8fda5eee17d2fe121edd152b9df27d7434c216fd
+Author: Preston Yoshino <prestonyoshino@Mac.grinnell.edu>
+Date:   Fri Oct 3 17:22:04 2025 -0500
+
+    changed cursor functionality
+
+commit 5ee0c0540e89d2767f32228c334a9f0ffd07a94f
+Author: Preston Yoshino <prestonyoshino@Mac.grinnell.edu>
+Date:   Sun Sep 28 14:45:16 2025 -0500
+
+    final
+
 commit d705bd80ce019e605b85238a60480236afdc5a37 (HEAD -> preston-changes, origin/preston-changes)
 Author: Preston Yoshino <prestonyoshino@Mac.grinnell.edu>
 Date:   Sun Sep 28 14:40:13 2025 -0500
