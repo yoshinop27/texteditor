@@ -7,7 +7,7 @@ import com.googlecode.lanterna.input.KeyStroke;
 import com.googlecode.lanterna.input.KeyType;
 
 import java.nio.file.*;
-import java.io.IO;
+import java.io.*;
 import java.io.IOException;
 import java.security.Key;
 
@@ -96,16 +96,16 @@ public class TextEditor {
         String text = buf.toString();
         // write content to back buffer
         for (int i = 0; i < text.length(); i++) {
-            int row = i/20;
-            int col = i%20;
+            int row = i/90;
+            int col = i%90;
             char ch = text.charAt(i);
             TextCharacter tc = TextCharacter.fromCharacter(ch)[0];
             screen.setCharacter(col, row, tc);
         }
         // insert cursor
         int cursorPos = buf.getCursorPosition();
-        int cursorRow = cursorPos/20;
-        int cursorCol = cursorPos % 20;
+        int cursorRow = cursorPos/90;
+        int cursorCol = cursorPos % 90;
         screen.setCursorPosition(new TerminalPosition(cursorCol, cursorRow));
 
         // back to front buffer
